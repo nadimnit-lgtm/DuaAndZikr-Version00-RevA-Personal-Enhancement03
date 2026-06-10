@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- All artwork grouped and scaled into the adaptive-icon safe zone (centre ~66dp)
+         so the launcher mask cannot crop it. Crescent + dome + star, gold on navy bg. -->
+    <group
+        android:name="mark"
+        android:pivotX="54"
+        android:pivotY="47"
+        android:scaleX="0.72"
+        android:scaleY="0.72"
+        android:translateY="9">
+        <!-- crescent -->
+        <path android:fillColor="#E2BE61" android:pathData="M35,18 A16,16 0,1 0 54,43 A20,20 0,1 1 35,18 Z" />
+        <!-- star -->
+        <path android:fillColor="#E2BE61" android:pathData="M68,22 L70,28 L76,28 L71,32 L73,38 L68,34 L63,38 L65,32 L60,28 L66,28 Z" />
+        <!-- dome (gold) -->
+        <path android:fillColor="#E2BE61" android:pathData="M30,76 L30,61 C30,48 40,38 54,38 C68,38 78,48 78,61 L78,76 Z" />
+        <!-- dome arch (navy cut-out) -->
+        <path android:fillColor="#0B1220" android:pathData="M43,76 L43,64 C43,57 48,51 54,51 C60,51 65,57 65,64 L65,76 Z" />
+    </group>
+</vector>
